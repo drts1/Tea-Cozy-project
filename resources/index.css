@@ -1,0 +1,225 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    padding: 0 20px;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    top: 0px;
+    left: 0px;
+    z-index: 10;  
+}
+
+img[src*='img-tea-cozy-logo'] {
+  height: 50px;
+  position: relative;
+  top: 5px;
+}
+
+#imglogo {
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+#headerlinks {
+    color: seashell;
+    font-size: 22px;
+    position: relative;
+    bottom: 55px;
+    list-style: none;
+}
+
+li {
+    display: inline;
+    position: relative;
+    left: 1100px;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+/* ///////////////////////// FIRST SECTION \\\\\\\\\\\\\\\\\\\\\ */
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 130px;
+  overflow: hidden;
+}
+
+.mission img {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 1%;
+  transform: scale(1.1);
+  
+
+}
+
+.missionstatement {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: seashell;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.missionstatement h2 {
+    font-size: 32px;
+    margin-top: 0px;
+}
+
+.missionstatement h4 {
+    font-size: 22px;
+    margin: 5px;
+}
+
+/* ////////////////// TEA OF THE MONTH SECTION \\\\\\\\\\\\\\\\\\ */
+
+
+.teaofthemonth {
+    position: relative;
+    border: 1px solid;
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 130px;
+ }
+
+.teatext {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: seashell;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+.teatext h2 {
+    font-size: 32px;
+
+}
+.teatext h4 {
+    font-size: 22px;
+    margin: 5px;
+}
+
+.teaimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 100px;
+}
+
+
+.image-block {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.image-block p {
+  margin-top: 20px;
+  text-align: center;
+  color: seashell;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+
+/* ////////////////// LOCATIONS SECTION \\\\\\\\\\\\\\\\\\ */
+
+.restlocations {
+  width: 1200px;
+  height: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 130px;
+  
+}
+
+.overflow {
+  width: 1200px;
+  height: 630px;
+  overflow: hidden;
+  position: relative;
+}
+
+.overflow img {
+  width: 100%; /* zooms in */
+  height: 140%;
+  /*object-fit: cover;
+  object-position: center; /* adjust focus point */
+  /*transform: translate(-10%, -5%); /* move image if needed */
+}
+
+.textlocation{
+    color: seashell;
+    z-index: 5;
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+}
+.textboxes {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  opacity: 1;
+}
+
+.text-block {
+  color: seashell;
+  background-color: black;
+  max-width: 300px;
+  text-align: center;
+  width: 280px;
+  z-index: 5;
+  padding: 30px 15px;
+  position:relative;
+  bottom: 120px;
+  font-size: 22px;
+  
+}
+.textboxes h3 {
+    margin: 1px;
+}
+.textboxes p {
+    margin-top: 40px;
+}
+
+.contact {
+    color: seashell;
+    text-align: center;
+    font-size: 22px;
+    height: 200px;
+}
+.contact h2 {
+    padding-bottom: 15px;
+}
+.copyright {
+    color: seashell;
+}
